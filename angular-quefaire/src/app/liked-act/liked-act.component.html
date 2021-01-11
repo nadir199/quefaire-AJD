@@ -1,0 +1,11 @@
+<div class="container terminal">
+    <div class="row">
+        <div class="col-lg-4" style="border:1px;border-color:black;" *ngFor="let act of likedphrases">
+            <pre style="color:black;text-align:left;">{{ act.category.name }}</pre>
+            <pre>
+                {{ act.phrase }}
+            </pre>
+        </div>
+    </div>
+  
+</div>

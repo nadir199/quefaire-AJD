@@ -1,0 +1,18 @@
+.bchoose{
+    transition: background-color 0.5s ease;
+    background-color: rgb(133, 133, 133);
+    margin-bottom: 0;
+    margin-top:0;
+    border-radius: 0;
+    text-align: center;
+    font-family: Abel;
+    font-weight: bold;
+    color:aliceblue
+}
+
+.bchoose:hover{
+    background-color: rgb(17, 17, 17);
+}
+.limited{
+    width:60%;
+}

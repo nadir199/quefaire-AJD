@@ -1,0 +1,13 @@
+<div class="container terminal">
+  <div class="row">
+    <div class="col-lg-12">
+      <pre style="color:black;text-align:left;">{{ getCategorie() }}</pre>
+      <pre style="text-align: center;">
+        {{ phrase }}
+      </pre>
+      <button (click)="changeValuesLike()" class="btn-lg btn-invis {{ liked ? 'redicon' : 'notredicon' }}"><fa-icon [icon]="faHeart"></fa-icon>{{ nblikes }}</button>
+  
+    </div>
+
+  </div>
+</div>
